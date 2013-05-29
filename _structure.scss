@@ -1,0 +1,41 @@
+/* The main theme structure */
+#access .menu-header,
+div.menu,
+#colophon,
+#branding,
+#main,
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+#wrapper {
+	/*background: #F1F1F1;*/
+	padding: 0;
+	width:80%;
+	min-width:800px;
+}
+
+/* Structure the footer area */
+#footer-widget-area {
+	overflow: hidden;
+}
+#footer-widget-area .widget-area {
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+}
+#footer-widget-area #fourth {
+	margin-right: 0;
+}
+#site-info {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	width: 700px;
+	margin-left:20px;
+}
+#site-generator {
+	float: right;
+	width: 220px;
+}

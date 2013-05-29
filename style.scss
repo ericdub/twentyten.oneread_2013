@@ -1,0 +1,138 @@
+/*
+Theme Name: One Read 2013
+Theme URI: http://wordpress.org/
+Description:
+Author: the WordPress team
+Version: 1.2
+License: GNU General Public License
+License URI: license.txt
+Tags:
+*/
+
+@import "colors";
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import "reset";
+
+/* =Layout
+-------------------------------------------------------------- */
+
+/*
+LAYOUT: Two columns
+DESCRIPTION: Two-column fixed layout with one sidebar right of content
+*/
+
+@import "layout";
+
+
+/* =Fonts
+-------------------------------------------------------------- */
+
+@import "fonts";
+
+
+/* =Structure
+-------------------------------------------------------------- */
+
+@import "structure";
+
+
+/* =Global Elements
+-------------------------------------------------------------- */
+
+/* Main global 'theme' and typographic styles */
+
+@import "globals";
+
+/* Text elements */
+
+@import "text-elements";
+
+/* =Header
+-------------------------------------------------------------- */
+
+@import "header";
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+@import "menu";
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+@import "content";
+
+/* =Asides
+-------------------------------------------------------------- */
+
+@import "asides";
+
+
+/* =Gallery listing
+-------------------------------------------------------------- */
+
+@import "gallery";
+
+
+/* =Attachment pages
+-------------------------------------------------------------- */
+
+@import "attachments";
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+@import "images";
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+@import "navigation";
+
+/* =Comments
+-------------------------------------------------------------- */
+
+@imports "comments";
+
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+@import "widgets";
+
+
+@import "footer";
+
+
+/* =Mobile Safari ( iPad, iPhone and iPod Touch )
+-------------------------------------------------------------- */
+
+pre {
+	-webkit-text-size-adjust: 140%;
+}
+code {
+	-webkit-text-size-adjust: 160%;
+}
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+	-webkit-text-size-adjust: 120%;
+}
+#site-description {
+	-webkit-text-size-adjust: none;
+}
+
+
+/* =Print Style
+-------------------------------------------------------------- */
+
+@import "print";

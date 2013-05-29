@@ -1,0 +1,118 @@
+.widget-area ul {
+	list-style: none;
+	margin-left: 0;
+}
+.widget-area ul ul {
+	list-style: square;
+	margin-left: 1.3em;
+}
+.widget-area select {
+	max-width: 100%;
+}
+.widget_search #s {/* This keeps the search inputs in line */
+	width: 60%;
+}
+.widget_search label {
+	display: none;
+}
+.widget-container {
+	margin: 0 0 18px 0;
+}
+.widget-title {
+	color: #222;
+	font-weight: bold;
+}
+.widget-area a:link,
+.widget-area a:visited {
+	text-decoration: none;
+}
+.widget-area a:active,
+.widget-area a:hover {
+	text-decoration: underline;
+}
+.widget-area .entry-meta {
+	font-size: 11px;
+}
+/* poll widget */
+.widget_polls-widget {
+	padding:15px 12px 3px;
+	border:1px dashed #A11E19;
+	background: #FFF;
+	background: -moz-linear-gradient(center top , #FFFCF2 20%, #FFFFFF 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, top top, left bottom, color-stop(20%,#FFFCF2), color-stop(100%,#FFFFFF));
+	background: -webkit-linear-gradient(top, #FFFCF2 20%, #FFFFFF 100%);
+	background: -o-linear-gradient(top, #FFFCF2 20%,#FFFFFF 100%);
+	background: -ms-linear-gradient(top, #FFFCF2 20%,#FFFFFF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFCF2', endColorstr='#FFFFFF',GradientType=0 );
+	background: linear-gradient(top, #FFFCF2 20%, #FFFFFF 100%);
+}
+.widget_polls-widget h3 {
+	text-align:center;
+	color:#A11E19;
+	font-size:130%
+}
+
+#wp_tag_cloud div {
+	line-height: 1.6em;
+}
+#wp-calendar {
+	width: 100%;
+}
+#wp-calendar caption {
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 4px;
+	text-align: left;
+}
+#wp-calendar thead {
+	font-size: 11px;
+}
+#wp-calendar thead th {
+}
+#wp-calendar tbody {
+	color: #aaa;
+}
+#wp-calendar tbody td {
+	background: #f5f5f5;
+	border: 1px solid #fff;
+	padding: 3px 0 2px;
+	text-align: center;
+}
+#wp-calendar tbody .pad {
+	background: none;
+}
+#wp-calendar tfoot #next {
+	text-align: right;
+}
+.widget_rss a.rsswidget {
+	color: #000;
+}
+.widget_rss a.rsswidget:hover {
+	color: #ff4b33;
+}
+.widget_rss .widget-title img {
+	width: 11px;
+	height: 11px;
+}
+
+/* Main sidebars */
+#main .widget-area ul {
+	margin-left: 0px;
+	
+	padding: 14px 20px 15px 20px;
+	background: #faeccf;
+}
+#main .widget-area ul ul {
+	border: none;
+	margin-left: 1.3em;
+	padding: 0;
+}
+#primary {
+}
+#secondary {
+}
+
+/* Footer widget areas */
+#footer-widget-area {
+}
