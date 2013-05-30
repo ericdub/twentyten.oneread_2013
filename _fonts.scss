@@ -1,3 +1,5 @@
+$mainFontStack : Georgia, "Times New Roman", Times, serif ;
+
 body,
 input,
 textarea,
@@ -30,10 +32,10 @@ h3#reply-title,
 .reply,
 .widget-title,
 .wp-caption-text {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: ;
 }
 input[type=submit] {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: $mainFontStack;
 }
 pre {
 	font-family: "Courier 10 Pitch", Courier, monospace;
