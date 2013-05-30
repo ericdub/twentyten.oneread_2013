@@ -92,15 +92,15 @@ textarea {
 	padding: 2px;
 }
 a:link {
-	color: #0066cc;
+	color: $aColor;
 	text-decoration:none;
 }
 a:visited {
-	color: #743399;
+	color: $aVisitedColor;
 }
 a:active,
 a:hover {
-	color: #A11E19;
+	color: $aHoverColor;
 	text-decoration:underline;
 }
 
