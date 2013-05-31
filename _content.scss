@@ -62,7 +62,7 @@
 }
 #content h2 {
 	font-size:180%;
-	color: #B7292A;
+	color: $contentH2;
 }
 #content h3 {
 	font-size:150%;
@@ -135,12 +135,12 @@
 }
 .page-title a:link,
 .page-title a:visited {
-	color: #888;
+	color: $pageTitleLink;
 	text-decoration: none;
 }
 .page-title a:active,
 .page-title a:hover {
-	color: #ff4b33;
+	color: $pageTitleLinkHover;
 }
 #content .entry-title {
 	color: #000;
